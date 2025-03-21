@@ -2,7 +2,7 @@ print('Welcome to the quiz game!')
 
 # input is a function that allows the user to input something directly.
 # put space after punctuation in input to put space between question and answer.
-playing = input("Do you want to play? ")
+playing = input("Do you want to play? Type yes to continue ")
 
 # != is not equal
 # if player is not playing, quit the game (app)
@@ -43,7 +43,7 @@ else:
     print("seriously?")
 
 answer = input("Who was the 2010 rushing champion? ")
-if answer.lower() or answer.upper() == "arian foster":
+if answer.lower() == "arian foster":
     print('CORRECT!')
     score += 1
 else:
